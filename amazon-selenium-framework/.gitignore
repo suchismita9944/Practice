@@ -1,0 +1,24 @@
+# Maven
+target/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+out/
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TestNG / Surefire reports
+test-output/
+surefire-reports/

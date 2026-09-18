@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AmazonInSuite" verbose="1" parallel="none">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="AmazonSearchTests">
+        <classes>
+            <class name="tests.AmazonSearchTest"/>
+        </classes>
+    </test>
+
+    <test name="AmazonDataDrivenSearchTests">
+        <classes>
+            <class name="tests.AmazonDataDrivenSearchTest"/>
+        </classes>
+    </test>
+
+</suite>
