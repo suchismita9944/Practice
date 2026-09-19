@@ -13,6 +13,7 @@ import utils.WaitUtils;
 public abstract class BasePage {
 
     protected final WebDriver driver;
+    protected final WebDriver driver;
     protected final WaitUtils waitUtils;
     protected final Logger log = LoggerFactory.getLogger(this.getClass());
 
