@@ -23,7 +23,7 @@ public class AmazonSearchTest extends BaseTest {
 
         log.info("STEP 2: Search for 'laptop'");
         SearchResultsPage resultsPage = homePage.searchFor("laptop");
-
+log.info("STEP 3: Verify search results are displayed");
         log.info("STEP 3: Verify search results are displayed");
         Assert.assertTrue(resultsPage.areResultsDisplayed(), "No search results were displayed for 'laptop'");
         Assert.assertFalse(resultsPage.isNoResultsMessageDisplayed(), "Amazon.in reported no results for 'laptop'");
