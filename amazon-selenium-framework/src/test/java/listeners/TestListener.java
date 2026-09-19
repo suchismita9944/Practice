@@ -26,6 +26,7 @@ public class TestListener implements ITestListener {
                 context.getPassedTests().size(),
                 context.getFailedTests().size(),
                 context.getSkippedTests().size());
+                context.getSkippedTests().size());
     }
 
     @Override
